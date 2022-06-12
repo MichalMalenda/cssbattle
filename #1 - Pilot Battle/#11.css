@@ -1,0 +1,45 @@
+<div></div>
+<div class=b></div>
+<div class=a></div>
+
+
+<div class=d></div>
+<div class=c></div>
+
+<style>
+  body{
+    margin:0;
+    background:#191210;
+  }
+  div {
+    width: 120px;
+    height: 120px;
+    background: #ECA03D;
+    border-radius:50%;
+    position:absolute;
+  }
+  .a{
+    width: 140px;
+    height: 140px;
+    margin-top:80;
+    margin-left:130;}
+  .b{
+    width: 100px;
+    height: 100px;
+    margin-left:248;
+    margin-top:100;
+    background: conic-gradient(#ECA03D 0deg,#ECA03D 90deg, #191210 90deg,#191210 270deg,#ECA03D 270deg)
+  }
+  .c{
+    margin-top:125;
+    margin-left:175;
+    width: 50px;
+    height: 50px;
+    background:#84271C;}
+  .d{
+    width: 100px;
+    height: 100;
+    margin-top:100;
+    margin-left:150;
+    background:#191210;
+  }
